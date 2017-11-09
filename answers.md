@@ -40,3 +40,16 @@ var body = document.querySelector('body')
 undefined
 body.style.backgroundColor = "red"
 "red"
+
+5.
+
+var highLightItems = document.querySelectorAll('.highlight')
+undefined
+highLightItems.length
+8
+highLightItems
+(8) [aside.highlight, h1.highlight, div#sleep.bar-filled.highlight, div#eat.bar-filled.highlight, div#time-travel.bar-filled.highlight, div#cry.bar-filled.highlight, h2.highlight, h2.highlight]
+for (var i = 0; i < highLightItems.length; i++) {
+  highLightItems[i].style.color = 'blue'    
+}
+"blue"
