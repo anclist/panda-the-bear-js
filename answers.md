@@ -73,3 +73,12 @@ for (var i = 0; i < actionIcons.length; i++) {
   actionIcons[i].style.color = 'grey'    
 }
 "grey"
+
+8.
+
+var formName = document.querySelector('#name')
+undefined
+formName
+<input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
+formName.placeholder = "identify yourself"
+"identify yourself"
