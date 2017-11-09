@@ -15,3 +15,28 @@ mainTitle
 <h1 class=​"highlight">​Panda The Bear​</h1>​
 mainTitle.innerText = "Antonio Manzanares"
 "Antonio Manzanares"
+
+3.
+
+var icon = document.querySelector('#employment h3 i')
+undefined
+var workHistory = document.createElement("span")
+undefined
+workHistory.innerHTML = "&nbsp; Work History"
+"&nbsp; Work History"
+var employmentHeading = document.querySelector('#employment h3')
+undefined
+employmentHeading.innerText = ""
+""
+employmentHeading.appendChild(icon)
+<i class=​"icon-suitcase">​…​</i>​
+employmentHeading.appendChild(workHistory)
+<span>​&nbsp; Work History​</span>​
+
+
+4.
+
+var body = document.querySelector('body')
+undefined
+body.style.backgroundColor = "red"
+"red"
