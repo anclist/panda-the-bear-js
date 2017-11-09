@@ -103,3 +103,10 @@ var formEmail = document.querySelector('#email')
 undefined
 formEmail.value = "koalathebear@gmail.com"
 "koalathebear@gmail.com"
+
+12.
+
+var formButton = document.querySelector('#submit')
+undefined
+formButton.value = "En garde!"
+"En garde!"
