@@ -110,3 +110,10 @@ var formButton = document.querySelector('#submit')
 undefined
 formButton.value = "En garde!"
 "En garde!"
+
+13.
+
+formButton.disabled = true
+true
+formButton
+<input type=​"submit" name=​"submit" id=​"submit" value=​"En garde!" disabled>​
