@@ -53,3 +53,12 @@ for (var i = 0; i < highLightItems.length; i++) {
   highLightItems[i].style.color = 'blue'    
 }
 "blue"
+
+6.
+
+var h1 = document.querySelector('h1')
+undefined
+h1
+<h1 class=​"highlight" style=​"color:​ blue;​">​Panda The Bear​</h1>​
+h1.style.fontFamily = 'monospace'
+"monospace"
