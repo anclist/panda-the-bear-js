@@ -117,3 +117,16 @@ formButton.disabled = true
 true
 formButton
 <input type=​"submit" name=​"submit" id=​"submit" value=​"En garde!" disabled>​
+
+14.
+
+var personalInfo = document.querySelector('.bio-info')
+undefined
+var personalInfoItems = document.querySelectorAll('.bio-info li')
+undefined
+for (var i = 0; i < personalInfoItems.length; i++) {
+  personalInfo.removeChild(personalInfoItems[i]);  
+}
+<li class=​"bio-info-item">​…​</li>​<span class=​"bio-info-title">​Phone​</span>​<span class=​"bio-info-value bio-info-phone">​555 123 1234​</span>​</li>​
+personalInfo
+<ul class=​"bio-info">​</ul>​
