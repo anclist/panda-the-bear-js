@@ -62,3 +62,14 @@ h1
 <h1 class=​"highlight" style=​"color:​ blue;​">​Panda The Bear​</h1>​
 h1.style.fontFamily = 'monospace'
 "monospace"
+
+7.
+
+var actionIcons = document.querySelectorAll('.action-icon i')
+undefined
+actionIcons
+(2) [i.icon-download-alt, i.icon-envelope]
+for (var i = 0; i < actionIcons.length; i++) {
+  actionIcons[i].style.color = 'grey'    
+}
+"grey"
