@@ -82,3 +82,12 @@ formName
 <input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
 formName.placeholder = "identify yourself"
 "identify yourself"
+
+9.
+
+var formMessage = document.querySelector('#message')
+undefined
+formMessage
+<textarea name=​"message" id=​"message" placeholder=​"Message">​</textarea>​
+formMessage.placeholder = "state your business"
+"state your business"
