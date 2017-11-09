@@ -96,3 +96,10 @@ formMessage.placeholder = "state your business"
 
 formName.value = "your nemesis"
 "your nemesis"
+
+11.
+
+var formEmail = document.querySelector('#email')
+undefined
+formEmail.value = "koalathebear@gmail.com"
+"koalathebear@gmail.com"
