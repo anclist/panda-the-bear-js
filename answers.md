@@ -130,3 +130,20 @@ for (var i = 0; i < personalInfoItems.length; i++) {
 <li class=​"bio-info-item">​…​</li>​<span class=​"bio-info-title">​Phone​</span>​<span class=​"bio-info-value bio-info-phone">​555 123 1234​</span>​</li>​
 personalInfo
 <ul class=​"bio-info">​</ul>​
+
+__________________________________________________
+
+Day 2
+
+Removing Elements from the DOM
+
+1.
+
+var timeTravelBar = $('#time-travel').parent('.bar-default')
+undefined
+timeTravelBar.remove()
+[div.bar-default, prevObject: n.fn.init(1), context: document]
+
+Adding Elements to the DOM
+
+1.
