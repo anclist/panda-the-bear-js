@@ -146,4 +146,12 @@ timeTravelBar.remove()
 
 Adding Elements to the DOM
 
-1.
+1 & 2.
+
+var container = document.querySelector('.portfolio-container')
+undefined
+for (var i = 0; i < 10; i++) {
+  var picachuClone = document.querySelector('#right-image').cloneNode(true)
+  container.appendChild(picachuClone)
+}
+<div class=​"portfolio-image" id=​"right-image">​…​</div>​
