@@ -155,3 +155,35 @@ for (var i = 0; i < 10; i++) {
   container.appendChild(picachuClone)
 }
 <div class=​"portfolio-image" id=​"right-image">​…​</div>​
+
+3.
+
+var listItem = document.createElement('li');
+listItem.className = "bio-info-item";
+listItem
+var leftSpan = document.createElement('span');
+leftSpan.className = "bio-info-title";
+leftSpan
+var lastUpdated = document.createTextNode('Page last updated on');
+leftSpan.appendChild(lastUpdated);
+listItem.appendChild(leftSpan);
+listItem
+var rightSpan = document.createElement('span');
+rightSpan.className = "bio-info-value bio-info-updated-at";
+"bio-info-value bio-info-updated-at"
+var dateNow = document.createTextNode(new Date());
+undefined
+dateNow
+"Fri Nov 10 2017 15:20:40 GMT-0500 (EST)"
+rightSpan.appendChild(dateNow)
+"Fri Nov 10 2017 15:20:40 GMT-0500 (EST)"
+listItem.appendChild(rightSpan);
+<span class=​"bio-info-value bio-info-updated-at">​Fri Nov 10 2017 15:20:40 GMT-0500 (EST)​</span>​
+listItem
+<li class=​"bio-info-item">​<span class=​"bio-info-title">​Page last updated on​</span>​<span class=​"bio-info-value bio-info-updated-at">​Fri Nov 10 2017 15:20:40 GMT-0500 (EST)​</span>​</li>​
+var ulItem = document.querySelector('.bio-info')
+undefined
+ulItem
+<ul class=​"bio-info">​…​</ul>​
+ulItem.appendChild(listItem)
+<li class=​"bio-info-item">​…​</li>​
